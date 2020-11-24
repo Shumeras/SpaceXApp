@@ -1,0 +1,13 @@
+.rootContainer{
+    position: absolute;
+    min-height: 100%;
+    width: 100%;
+
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/55/Terzan_7_by_HST.jpg");
+    background-position: center;
+    background-repeat: repeat-y;
+}
+
+.routerContainer{
+    padding: 2vh 2vw;
+}

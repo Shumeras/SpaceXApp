@@ -1,0 +1,39 @@
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    
+    width: 100%;
+    background-color: #00000077;
+    border-radius: 8px;
+}
+
+mat-card{
+    margin: 10px;
+
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 200px;
+}
+
+mat-card-header{
+    min-height: 20vh;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+mat-card-title{
+    padding-top: 10px;
+}
+
+mat-card-container{
+    margin: 2px;
+}
+
+mat-card-actions{
+    a{
+        margin: 5px
+    }
+}
